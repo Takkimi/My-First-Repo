@@ -1,0 +1,7 @@
+Comment:
+It took me 50 minutes to finish because some parts are already what I did on the previous activity.
+
+Reflection:
+I had a difficult time with identifying the semantics of <main>, <footer> and etc.
+Another one was indentation, like the <hr> and <br>.
+I should study and focus more about those. 
