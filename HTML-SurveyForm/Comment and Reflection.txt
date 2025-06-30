@@ -1,0 +1,9 @@
+Comment:
+It took me about an hour because I had to take a break but it might have took me about 30 minutes without one.
+
+Reflection:
+I did not really faced any notable challenges but there is one confusion I keep getting.
+Because I am more familiar with using div and not the semantic versions, I tend to use that instead.
+But I do realize it at the end and changed them. I am also a bit confused about the "groupings"
+where I am supposed to indent especially on the <br> and <hr> one.
+I learned a lot especially about keeping my codes organized.
