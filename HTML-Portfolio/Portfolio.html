@@ -1,69 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <title>Kim's Portfolio</title>
 </head>
 <body>
     <header>
-        <h1>Kim's Portfolio</h1>
-        <p>Welcome to my portfolio!</p>
+        <h1 id="main-head">KIM'S PORTFOLIO</h1>
+        <p id="sub-head">WELCOME TO MY PORTFOLIO!</p>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <hr>   
     <main>
-        <section>
-            <h2 id="about">About Me</h2>
-                <p>Hi, I'm Kim! I'm a web developer with a passion for creating aesthetic and functional websites. Coding is one of my main interest.</p>
-                <img src="pfp.jpg" alt="ProfilePhoto.png" width="200" height="200">
+        <section id="about-me">
+            <h2>ABOUT ME</h2>
+            <p>Hi, I'm Kim! I'm a web developer with a passion for creating aesthetic and functional websites. Coding is one of my main interest.</p>
+            <img src="pfp.jpg" alt="ProfilePhoto.png" width="400" height="400">
         </section>
-        <hr>
-        <section>
-            <h2 id="projects">My Projects</h2>
-                <table>
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Description</th>
-                        <th>Year</th>
-                    </tr>
-                    <tr>
-                        <td>Project One</td>
-                        <td>My Website</td>
-                        <td>2025</td>
-                    </tr>
-                    <tr>
-                        <td>Project Two</td>
-                        <td>His Website</td>
-                        <td>2025</td>
-                    </tr>
-                    <tr>
-                        <td>Project Three</td>
-                        <td>Her Website</td>
-                        <td>2025</td>
-                    </tr>
-                </table>
+        <section id="projects-section">
+            <h2>MY PROJECTS</h2>
+            <table>
+                <tr>
+                    <th>PROJECT NAME</th>
+                    <th>DESCRIPTION</th>
+                    <th>YEAR</th>
+                </tr>
+                <tr>
+                    <td>Project One</td>
+                    <td>My Website</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>Project Two</td>
+                    <td>His Website</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>Project Three</td>
+                    <td>Her Website</td>
+                    <td>2025</td>
+                </tr>
+            </table>
         </section>
     </main>
-    <hr>
-    <form>
-        <section>
-            <h2 id="contact">Contact Me</h2>
-                <label for="name">Full Name:</label>
+    <form id="contact-form">
+        <section id="contact-me">
+            <h2>CONTACT ME</h2>
+            <div id="textbox">
+                <label for="name">FULL NAME:</label>
                 <input type="text" id="name" name="name" required>
                     <br>
                     <br>
-                <label for="email">Email Address:</label>
+                <label for="email">EMAIL ADDRESS:</label>
                 <input type="email" id="email" name="email" required>
+            </div>
         </section>
-    <hr>
-        <section>
-            <h2>How did you hear about this portfolio?</h2>
+        <section id = "contact-how">
+            <h2>HOW DID YOU HEAR ABOUT THIS PORTFOLIO?</h2>
+            <div id="radio">
                 <input type="radio" id="friend" name="referral" value="friend">
                 <label for="friend">Friend</label>
                     <br>
@@ -75,11 +75,12 @@
                     <br>
                 <input type="radio" id="other" name="referral" value="other">
                 <label for="other">Other</label>
-                    <br>
+                <br>
+            </div>
         </section>
-    <hr>
-        <section>
-            <h2>Skills or Interests</h2>
+        <section id = "contact-skill">
+            <h2>SKILLS OR INTEREST</h2>
+            <div id="checkbox">
                 <input type="checkbox" id="skill1" name="skill" value="ease of use">
                 <label for="skill1">Art</label>
                     <br>
@@ -89,18 +90,17 @@
                 <input type="checkbox" id="skill3" name="skill" value="customer support">
                 <label for="skill3">Reading</label>
                     <br>
+            </div>
         </section>
-    <hr>
-        <section>
-            <h2>Comments or Messages</h2>
+        <section id="contact-comment">
+            <h2>COMMENTS OR MESSAGES</h2>
             <textarea id="comment" name="comment"></textarea>
         </section>
-    <hr>
-        <h3>Press the Button to Submit.</h3>
-        <input type="submit" value="Submit">
+        <div class="contact-submit">
+             <input type="submit" value="SUBMIT">
+        </div>
     </form>
-    <hr>
-    <footer>
+    <footer id="footer">
         Copr. 2025 Kim's Portfolio. All rights reserved.
     </footer>
     
