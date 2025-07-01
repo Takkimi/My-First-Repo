@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Survey Form by Kim</title>
 </head>
 
@@ -12,48 +11,45 @@
             <h1>Survey Form</h1>
             <h5>Created by Kim 😉</h5>
         </header>
-    <hr>
-        <nav>
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
-                    <br>
-                    <br>
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-        </nav>
-    <hr>
+        <hr>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        <hr>
         <section>
             <h2>How satisfied are you with our service?</h2>
-                <input type="radio" id="five" name="satisfaction" value="five">
-                <label for="five">Very Satisfied</label>
-                    <br>
-                <input type="radio" id="four" name="satisfaction" value="four">
-                <label for="four">Satisfied</label> 
-                    <br>
-                <input type="radio" id="four" name="satisfaction" value="four">
-                <label for="three">Neutral</label>
-                    <br>
-                <input type="radio" id="two" name="satisfaction" value="two">
-                <label for="two">Dissatisfied</label>
-                    <br>
-                <input type="radio" id="one" name="satisfaction" value="one">
-                <label for="one">Very Dissatisfied</label>
-                    <br>
+            <input type="radio" id="five" name="satisfaction" value="five">
+            <label for="five">Very Satisfied</label>
+            <br>
+            <input type="radio" id="four" name="satisfaction" value="four">
+            <label for="four">Satisfied</label>
+            <br>
+            <input type="radio" id="three" name="satisfaction" value="three">
+            <label for="three">Neutral</label>
+            <br>
+            <input type="radio" id="two" name="satisfaction" value="two">
+            <label for="two">Dissatisfied</label>
+            <br>
+            <input type="radio" id="one" name="satisfaction" value="one">
+            <label for="one">Very Dissatisfied</label>
+            <br>
         </section>
-    <hr>
+        <hr>
         <section>
             <h2>Which features do you value the most?</h2>
-                <input type="checkbox" id="feature1" name="features" value="ease of use">
-                <label for="feature1">Ease of Use</label>
-                    <br>
-                <input type="checkbox" id="feature2" name="features" value="design">
-                <label for="feature2">Design</label>
-                    <br>
-                <input type="checkbox" id="feature3" name="features" value="customer support">
-                <label for="feature3">Customer Support</label>
-                    <br>
+            <input type="checkbox" id="feature1" name="features" value="ease of use">
+            <label for="feature1">Ease of Use</label>
+            <br>
+            <input type="checkbox" id="feature2" name="features" value="design">
+            <label for="feature2">Design</label>
+            <br>
+            <input type="checkbox" id="feature3" name="features" value="customer support">
+            <label for="feature3">Customer Support</label>
+            <br>
         </section>
-    <hr>
+        <hr>
         <section>
             <h2>What best describes you?</h2>
             <label for="occupation">Select an option:</label>
@@ -64,15 +60,16 @@
                 <option value="other">Other</option>
             </select>
         </section>
-    <hr>
+        <hr>
         <section>
             <h2>Additional Feedback</h2>
-            <textarea id="feedback" name="feedback" alt="Tell us your additional feedback here"></textarea>
+            <label for="feedback" class="visually-hidden">Tell us your additional feedback here</label>
+            <textarea id="feedback" name="feedback" placeholder="Tell us your additional feedback here"></textarea>
         </section>
-    <hr>
+        <hr>
         <footer>
             <h3>Press the Button to Submit.</h3>
-            <input type="submit" value="Submit">
+            <button type="submit">Submit</button>
         </footer>
     </form>
 </body>
