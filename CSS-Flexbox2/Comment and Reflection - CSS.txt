@@ -1,0 +1,5 @@
+Comment:
+It took me 10-15 minutes to finish it.
+
+Reflection:
+I think it was more of a confusion is what I encountered in this challenge, I wasn't sure if I should change the paddings or margins of the other containers. But I eventually did, to mimic the picture given.
