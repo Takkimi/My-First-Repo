@@ -1,0 +1,5 @@
+Comment:
+It took me 2 hours to finish this activity.
+
+Reflection:
+I still have some confusion with some align tags in CSS but experimenting really helped me identify some of their differences. I need to also figure out how I can center the search bar, and not a fixed position.
