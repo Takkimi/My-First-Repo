@@ -1,0 +1,200 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body{
+    background-image: url("netflix_image_asset/bg.jpg");
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0) 100%);
+    display: flex;
+    flex-direction: row;;
+    padding-left: 220px;
+    padding-right: 220px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.user{
+    margin-top: 20px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}   
+.user button{
+    font: 3em;
+    font-weight: bold;
+    width: 80px;
+    height: 35px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: auto;
+}
+.user button:hover{
+    background-color: rgb(177, 0, 0);
+}
+.user select{
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: rgba(255, 255, 255, 0.548) 1px solid;
+
+}
+/* main */
+main{
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0) 100%);
+    color: white;
+    padding: 200px 0 300px 0 ;
+    margin: 0;
+    text-align: center;
+}
+main h1{
+    font-size: 50px;
+    font-weight: bold;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+main p{
+    font-size: 20px;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+/* nav */
+nav{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px 250px 20px 250px;
+}
+nav  h4{
+    color: white;
+    font-size: 30px;
+    padding: 0;
+}
+nav img{
+    width: 17%;
+    height: 20%;
+    border-radius: 5px;
+    gap: 10px;
+}
+nav button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    height: 100px;
+    margin-top: 100px
+} nav button:hover{
+
+}
+
+.movies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* section */
+section{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 20px 250px 20px 250px;
+}
+section h4{
+    color: white;
+    font-size: 30px;
+    padding: 0;
+}
+.reasons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.enjoy, .download, .watch, .create{
+    padding-top: 5px;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    background-color: rgb(27, 40, 83);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.enjoy h3, .download h3, .watch h3, .create h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.enjoy p, .download p, .watch p, .create p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.575);
+    line-height: 20px;
+}
+/* form */
+form{
+    color: white;
+    text-align: center;
+}
+.end{
+    background-color: black;
+    padding: 50px 150px 50px 150px;
+}
+form input{
+    background-color: black;
+    padding: 12px;
+    border: rgba(255, 255, 255, 0.466) 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+    width: 300px;
+}
+.end input{
+    width: 500px;
+    padding: 13px;
+}
+.end button{
+    width: 200px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+form p{
+    margin: auto auto 10px auto;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.top{
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}form button:hover{
+    background-color: rgb(177, 0, 0);
+}
