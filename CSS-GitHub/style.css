@@ -1,0 +1,324 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #0D1117;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #25292E;
+    padding: 15px 30px 15px 25px;
+    align-items: center;
+    align-content: space-between;
+}
+
+header button{
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.836);
+    padding: 10px;
+    border-radius: 8px;
+}
+header button:hover{
+    background-color: #34393f;
+}
+
+header .nav{
+    gap: 1px;
+    display: flex;
+    position: relative;
+    right: 190px;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav button{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+/* 
+header .nav img{
+    align-items: center;
+     justify-content: center;
+} */
+
+
+header .user-log .box{
+    border:rgba(255, 255, 255, 0.808) 1px solid;
+    border-radius: 8px;
+}
+
+header .user-log .box, .user-log .unbox{
+    margin-left: 10px;
+}
+
+header input{
+    background-color: transparent;
+    border: rgba(255, 255, 255, 0.432) 1px solid;
+    border-radius: 10px;
+    width: 430px;
+    height: 25px;
+    display: flex;
+    position: relative;
+    left: 190px;
+    padding: 5px 40px 5px 40px;
+}
+
+header .magnify{
+position: absolute;
+right: 675px;
+top: 25px;
+}
+
+header .slash{
+position: absolute;
+right: 210px;
+top: 25px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 30px 15px 30px;
+    align-items: center;
+    gap: 25px;
+}
+
+nav button{
+    padding: 5px 5px 10px 5px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.322);
+    border: none;
+    font-size: 0.9em;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+nav button:hover{
+    color: white;
+    border-bottom: #1074E7 1px solid;
+}
+
+main{
+    margin: 10px 560px 10px 550px;
+}
+
+main div{
+    border: rgba(255, 255, 255, 0.219) 1px solid;
+    border-radius: 10px;
+    padding: 0px 40px 10px 0px;
+}
+
+main div .img{
+    border-radius: 10px 10px 0 0;
+    height: 370px;
+    width: 794px;
+}
+
+main div div{
+    border:none;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 0px 0px 0px 15px;
+    margin: 0px;
+    gap: 15px;
+    align-items: center;
+}
+
+main div div img{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+main .post h3{
+    color: #4493F8;
+    padding: 0px 0px 0px 15px;
+}
+
+main .post p{
+    line-height: 25px;
+    padding: 0px 0px 20px 15px;
+}
+
+main section{
+    margin-top: 30px;
+    border: rgba(255, 255, 255, 0.219) 1px solid;
+    border-radius: 10px;
+    padding: 0px 50px 10px 0px;
+}
+
+main section div{
+    border: none;
+    display: flex;
+    padding: 0px 15px;
+    gap: 10px;
+    align-items: center;
+}
+
+main section div img{
+    width: 20px;
+    height: 20px;
+}
+
+main section .hash{
+    background-color: #111D2F;
+    padding: 60px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main section div div{
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+main section div div h3{
+    color: #4493F8;
+}
+
+main section div div h3, p, a{
+    margin: 0;
+}
+main section div div a{
+    text-decoration: none;
+    color: #1074E7;
+}
+
+aside{
+    border: rgba(255, 255, 255, 0.24) 1px solid;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 150px;
+    right: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside .user{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+
+aside .out-top, .out-bot{
+    background-color: #151B23;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 15px 0px 15px 0px;
+    border-bottom: rgba(255, 255, 255, 0.24) 1px solid;
+    border-top: rgba(255, 255, 255, 0.24) 1px solid;
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+aside .out-bot{
+    border-radius: 0 0 10px 10px;
+}
+
+aside a{
+    text-decoration: none;
+    color: #1074E7;
+    font-size: 0.8em;
+}
+
+aside h3{
+    font-size: 1em;
+    margin: 0%;
+}
+
+aside div img{
+    width: 20px;
+    height: 20px;
+}
+
+aside section{
+    border-bottom: rgba(255, 255, 255, 0.24) 1px solid;
+    border-top: rgba(255, 255, 255, 0.24) 1px solid;
+    display: flex;
+    padding: 15px;
+    gap:10px;
+}
+
+aside section div div{
+    display: flex;
+    gap: 5px;
+    align-items: center; 
+
+}
+
+aside section h2, h4, p{
+    margin: 5px;
+}
+
+aside section div div img, p{
+    padding-top: 10px;
+}
+
+aside section div div img{
+    width: 15px;
+    height: 15px;
+}
+
+aside section div div p{
+font-size: 0.7em;
+}
+
+aside section h2{
+font-size: 1em;
+color: #1074E7;
+}
+
+aside section h4{
+font-size: 0.8em;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.363);
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.363);
+}
