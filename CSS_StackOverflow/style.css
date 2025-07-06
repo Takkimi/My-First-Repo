@@ -1,0 +1,366 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #E7700D;
+}
+
+body{
+    margin:3px 0 0 0;
+    padding:0;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
+
+header{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    padding: 10px 200px 15px 200px;
+    border-bottom:rgba(0, 0, 0, 0.178) 1px solid;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+} 
+
+header img{
+    height: 30px;
+    width: 150px;
+} 
+
+header .about, .products, .overflowai{
+    background-color: #fff;
+    border: none;
+    color: rgba(0, 0, 0, 0.473);
+    border-radius: 50px;
+} 
+
+header .about:hover, .products:hover, .overflowai:hover{
+    background-color: #0707071a;
+    border: none;
+    color: rgba(0, 0, 0, 0.473);
+}
+
+header .login{
+    background-color: #fff;
+    border:#1B75D0 1px solid;
+    border-radius: 5px;
+    color:#1B75D0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header .login:hover{
+    background-color: #1b76d038;
+}
+
+header .signup{
+    background-color: #1B75D0;
+    border:#1B75D0 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header .signup:hover{
+    background-color: #10559b;
+}
+
+header input{
+    width:950px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.301) 1px solid;
+    padding-left: 40px;
+}
+
+sidenav {
+    position: fixed;
+    top: 59px;
+    left: 0;
+    height: 100vh;
+    width: 180px;
+    padding-left: 190px;
+    background-color: #ffffff;
+    /* border-right: 1px solid #e0e0e0; */
+    display: flex;
+    flex-direction: column;
+}
+sidenav div div{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px ;
+}
+
+sidenav div div:hover{
+    background-color: #00000007;
+    border: none;
+}
+
+div img{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+}
+
+sidenav div div button{
+    background-color: transparent;
+    border: none;
+    padding-left: 30px;
+    font-size: 0.8em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+sidenav div div button:hover{
+    font-weight: bolder;
+}
+
+.home{
+    padding-top: 20px;
+}
+.users{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+main{
+    padding-left: 370px;
+    margin-right: 200px;
+    /* margin-top: -20px; */
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    font-size: 2.8em;
+    max-width: 530px;
+    z-index: 50;
+    position: relative;
+}
+
+main section{
+    padding-left: 50px;
+}
+
+main section h1 span{
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 50;
+}
+.top{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #F9FAFA;
+    border-radius: 0 0 10px 10px;
+}
+
+.top p{
+    font-size: 1em;
+    max-width: 500px;
+    color: rgba(0, 0, 0, 0.733);
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+main section .bg{
+    position: absolute;
+    top:110px;
+    left: 545px;
+    z-index: 0;
+}
+
+main .top .img{
+    position: absolute;
+    right: 300px;
+    top: 135px;
+    height: 325px;
+}
+
+main .top button{
+    color: #fff;
+    background-color: #1B75D0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+}
+main .top button:hover{
+    background-color: #10559b;
+}
+
+main .top a{
+    color:#1B75D0;
+    text-decoration: none;
+}
+
+main h2{
+    padding: 30px 0 30px 0;
+    font-weight: lighter;
+}
+
+main .mid{
+    border: rgba(0, 0, 0, 0.164) 1px solid;
+    border-radius: 10px;
+    padding-bottom: 65px;
+    padding-top: 15px;
+}
+
+main .logo{
+    padding-top: 30px;
+    height: 40px;
+}
+.mid p{
+    font-size: 1em;
+    max-width: 500px;
+    color: rgba(0, 0, 0, 0.733);
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+main .mid .img{
+    position: absolute;
+    right: 201px;
+    top: 630px;
+    height: 250px;
+    border-bottom-right-radius: 10px;
+}
+
+main .mid button, .left button, .right button{
+    color: #fff;
+    background-color: #1B75D0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+}
+main .mid button:hover{
+    background-color: #10559b;
+}
+main .mid a, .left a{
+    color:#1B75D0;
+    font-size: 0.9em;
+}
+
+main .bot{
+    margin: 20px 0 20px 0;
+    background-color: #3B4045;
+    border-radius: 10px;
+    padding-bottom: 65px;
+    padding-top: 15px;
+}
+
+main .bot p{
+    color:#fff;
+    max-width: 600px;
+    line-height: 30px;
+}
+
+main .bot button{
+    color: #fff;
+    background-color: #E7700D;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+main .bot button:hover{
+    background-color: #aa4f04;
+}
+
+main .bot .img{
+    position: absolute;
+    right: 201px;
+    top: 931px;
+    height: 250px;
+    border-bottom-right-radius: 10px;
+}
+
+main .left{
+    border: rgba(0, 0, 0, 0.164) 1px solid;
+    border-radius: 10px;
+    padding: 15px 200px 50px 50px;
+    /* padding-bottom: 65px;
+    padding-top: 15px; */
+    max-width: 400px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+main .left p{
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.733);
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+main .right p{
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.733);
+    padding-bottom: 10px;
+    line-height: 30px;
+    width: 550px;
+}
+
+main .right{
+    border: rgba(0, 0, 0, 0.164) 1px solid;
+    border-radius: 10px;
+    padding: 15px 200px 50px 40px;
+    /* padding-bottom: 65px;
+    padding-top: 15px; */
+    max-width: 400px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 200px
+}
+
+.out{
+    margin-top: 350px;
+    margin-left: 370px;
+    padding: 30px 0 30px 0;
+    font-weight: lighter;
+}
+
+body .end{
+    margin-left: 370px;
+    margin-right: 200px;
+    border: rgba(0, 0, 0, 0.164) 1px solid;
+    border-radius: 10px;
+    padding-bottom: 65px;
+    padding-top: 15px;
+}
+
+body .end .logo{
+    padding: 30px 0 0 50px;
+    height: 40px;
+}
+
+body .end p{
+    padding: 0 10px 0 50px;
+    font-size: 1em;
+    max-width: 500px;
+    color: rgba(0, 0, 0, 0.733);
+    line-height: 30px;
+}
+
+.end button{
+    color: #fff;
+    background-color: #1B75D0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 50px;
+    padding: 10px 10px 10px 10px;
+}
+.end button:hover{
+    background-color: #10559b;
+}   
+
+.end .img{
+    position: absolute;
+    right: 201px;
+    top: 1542px;
+    height: 380px;
+    border-bottom-right-radius: 10px;
+}
